@@ -95,7 +95,7 @@
 
     <main class="max-w-screen-xl mx-auto">
         <!-- exotic tastes slider section -->
-        <section class="p-5">
+        <section class="mx-5">
             <div class="carousel w-full">
                 <!-- slider 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
@@ -188,7 +188,7 @@
         </section>
 
         <!-- deal of the day section  -->
-        <section class="mt-60 p-5">
+        <section class="mt-60 mx-5">
             <div>
                 <!-- deal text & countdown timer -->
                 <div class="flex gap-5 flex-col md:flex-row items-center mb-12 ">
@@ -262,8 +262,52 @@
                                     class="bg-fruit-primary mask mask-star-2 mask-half-2" />
                             </div>
 
+                            <!-- modal of card 1 -->
                             <div>
-                                <button class="text-fruit-primary">Details</button>
+                                <button class="text-fruit-primary" onclick="my_modal_1.showModal()">Details</button>
+                                <dialog id="my_modal_1" class="modal">
+                                    <form method="dialog" class="modal-box">
+                                        <div class="card bg-base-100">
+                                            <figure class="px-10 pt-10">
+                                                <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                                            </figure>
+                                            <div class="card-body items-center text-center space-y-5">
+                                                <h2 class="card-title">Apples</h2>
+                                                <p>Best quality fruit available, guranteed quality for customer satisfaction.</p>
+
+                                                <div class="rating rating-lg rating-half">
+                                                    <input type="radio" name="rating-10" class="rating-hidden" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" checked />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                </div>
+                                            </div>
+                                            <div class="modal-action justify-center gap-5">
+                                                <!-- button in form, will close the modal -->
+                                                <button class="btn text-fruit-primary border-fruit-primary">Close</button>
+                                                <button class="btn bg-fruit-primary border-transparent text-white">
+                                                    Buy Now
+                                                </button>
+                                            </div>
+                                    </form>
+                                </dialog>
                             </div>
 
                         </div>
@@ -302,8 +346,52 @@
                                     class="bg-fruit-primary mask mask-star-2 mask-half-2" />
                             </div>
 
+                            <!-- modal of card 2 -->
                             <div>
-                                <button class="text-fruit-primary">Details</button>
+                                <button class="text-fruit-primary" onclick="my_modal_2.showModal()">Details</button>
+                                <dialog id="my_modal_2" class="modal">
+                                    <form method="dialog" class="modal-box">
+                                        <div class="card bg-base-100">
+                                            <figure class="px-10 pt-10">
+                                                <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                                            </figure>
+                                            <div class="card-body items-center text-center space-y-5">
+                                                <h2 class="card-title">Orange</h2>
+                                                <p>Best quality fruit available, guranteed quality for customer satisfaction.</p>
+
+                                                <div class="rating rating-lg rating-half">
+                                                    <input type="radio" name="rating-10" class="rating-hidden" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" checked />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                </div>
+                                            </div>
+                                            <div class="modal-action justify-center gap-5">
+                                                <!-- button in form, will close the modal -->
+                                                <button class="btn text-fruit-primary border-fruit-primary">Close</button>
+                                                <button class="btn bg-fruit-primary border-transparent text-white">
+                                                    Buy Now
+                                                </button>
+                                            </div>
+                                    </form>
+                                </dialog>
                             </div>
 
                         </div>
@@ -341,8 +429,52 @@
                                     class="bg-fruit-primary mask mask-star-2 mask-half-2" />
                             </div>
 
+                            <!-- modal of card 3 -->
                             <div>
-                                <button class="text-fruit-primary">Details</button>
+                                <button class="text-fruit-primary" onclick="my_modal_3.showModal()">Details</button>
+                                <dialog id="my_modal_3" class="modal">
+                                    <form method="dialog" class="modal-box">
+                                        <div class="card bg-base-100">
+                                            <figure class="px-10 pt-10">
+                                                <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                                            </figure>
+                                            <div class="card-body items-center text-center space-y-5">
+                                                <h2 class="card-title">Red Dragon</h2>
+                                                <p>Best quality fruit available, guranteed quality for customer satisfaction.</p>
+
+                                                <div class="rating rating-lg rating-half">
+                                                    <input type="radio" name="rating-10" class="rating-hidden" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" checked />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                </div>
+                                            </div>
+                                            <div class="modal-action justify-center gap-5">
+                                                <!-- button in form, will close the modal -->
+                                                <button class="btn text-fruit-primary border-fruit-primary">Close</button>
+                                                <button class="btn bg-fruit-primary border-transparent text-white">
+                                                    Buy Now
+                                                </button>
+                                            </div>
+                                    </form>
+                                </dialog>
                             </div>
 
                         </div>
@@ -381,8 +513,52 @@
                                     class="bg-fruit-primary mask mask-star-2 mask-half-2" />
                             </div>
 
+                            <!-- modal of card 4 -->
                             <div>
-                                <button class="text-fruit-primary">Details</button>
+                                <button class="text-fruit-primary" onclick="my_modal_4.showModal()">Details</button>
+                                <dialog id="my_modal_4" class="modal">
+                                    <form method="dialog" class="modal-box">
+                                        <div class="card bg-base-100">
+                                            <figure class="px-10 pt-10">
+                                                <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                                            </figure>
+                                            <div class="card-body items-center text-center space-y-5">
+                                                <h2 class="card-title">Banana</h2>
+                                                <p>Best quality fruit available, guranteed quality for customer satisfaction.</p>
+
+                                                <div class="rating rating-lg rating-half">
+                                                    <input type="radio" name="rating-10" class="rating-hidden" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" checked />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10"
+                                                        class="bg-fruit-primary mask mask-star-2 mask-half-2" />
+                                                </div>
+                                            </div>
+                                            <div class="modal-action justify-center gap-5">
+                                                <!-- button in form, will close the modal -->
+                                                <button class="btn text-fruit-primary border-fruit-primary">Close</button>
+                                                <button class="btn bg-fruit-primary border-transparent text-white">
+                                                    Buy Now
+                                                </button>
+                                            </div>
+                                    </form>
+                                </dialog>
                             </div>
 
                         </div>
@@ -398,7 +574,7 @@
         </section>
 
         <!-- Meet the team section -->
-        <section class=" mt-5 md:mt-16 p-5 ">
+        <section class=" mt-10 md:mt-20 mx-5 ">
             <div class="hero min-h-screen bg-hero-bg rounded-lg">
                 <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
                 <div class="hero-content text-center text-neutral-content">
@@ -484,11 +660,98 @@
             </div>
         </section>
 
+        <!-- why choose us section -->
+        <section class="mt-10 md:mt-20 mx-5">
+            <div class="text-center">
+                <h3 class="mb-5 text-5xl font-bold">Why Choose Us</h3>
+                <p class="mb-12">Online trust is a great factor nowadays, but don't worry! We do not disappoint. Check
+                    out why we should be your choice.</p>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                    <!-- left part -->
+                    <div class="order-2 md:order-1">
+                        <div class="flex flex-col md:flex-row justify-start items-center gap-3 mb-5">
+                            <i class="fa-solid fa-people-group p-4 rounded-full bg-slate-200"></i>
+                            <div class="text-center md:text-left">
+                                <h4 class="text-2xl font-bold border-b-2 border-red-700 pb-2 mb-3 ">Dedicated Team</h4>
+                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col md:flex-row justify-start items-center gap-3 mb-5">
+                            <i class="fa-solid fa-hand-holding-heart p-4 rounded-full bg-slate-200"></i>
+                            <div class="text-center md:text-left">
+                                <h4 class="text-2xl font-bold border-b-2 border-red-700 pb-2 mb-3 ">Fresh is Best</h4>
+                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col md:flex-row justify-start items-center gap-3 mb-5">
+                            <i class="fa-solid fa-gift p-4 rounded-full bg-slate-200"></i>
+                            <div class="text-center md:text-left">
+                                <h4 class="text-2xl font-bold border-b-2 border-red-700 pb-2 mb-3 ">Gift Certificates
+                                </h4>
+                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- middle part -->
+                    <div class="order-1 md:order-2">
+                        <img src="./images/whychoose1.png" alt="">
+                    </div>
+
+                    <!-- right part -->
+                    <div class="order-3">
+                        <div class="flex flex-col-reverse md:flex-row justify-end items-center gap-3 mb-5">
+
+                            <div class="text-center md:text-right">
+                                <h4 class="text-2xl font-bold border-b-2 border-red-700 pb-2 mb-3 ">Integrated Supplier
+                                </h4>
+                                <p>Professional employees are there for you to pick the most amazing and fresh
+                                    fruits.
+                                </p>
+                            </div>
+                            <i class="fa-solid fa-apple-whole p-4 rounded-full bg-slate-200"></i>
+                        </div>
+
+                        <div class="flex flex-col-reverse md:flex-row justify-end items-center gap-3 mb-5">
+
+                            <div class="text-center md:text-right">
+                                <h4 class="text-2xl font-bold border-b-2 border-red-700 pb-2 mb-3 ">Sustainable Practice
+                                </h4>
+                                <p>Professional employees are there for you to pick the most amazing and fresh
+                                    fruits.
+                                </p>
+                            </div>
+                            <i class="fa-solid fa-ice-cream p-4 rounded-full bg-slate-200"></i>
+                        </div>
+
+                        <div class="flex flex-col-reverse md:flex-row justify-end items-center gap-3 mb-5">
+                            <div class="text-center md:text-right">
+                                <h4 class="text-2xl font-bold border-b-2 border-red-700 pb-2 mb-3 ">The Benefits Only
+                                </h4>
+                                <p>Professional employees are there for you to pick the most amazing and fresh
+                                    fruits.
+                                </p>
+                            </div>
+                            <i class="fa-regular fa-thumbs-up p-4 rounded-full bg-slate-200"></i>
+                        </div>
+                    </div>
+                </div>
 
 
+            </div>
+
+        </section>
     </main>
+
+
     <!-- footer section -->
-    <footer class="footer footer-center p-10 bg-[#121212] text-primary-content">
+    <footer class="footer footer-center p-10 bg-[#121212] text-primary-content mt-20">
         <div class="flex gap-5">
             <img src="./images/logo.png" alt="">
             <a class=" normal-case text-3xl font-bold lg:text-white">Fruit Burst</a>
